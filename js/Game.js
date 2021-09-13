@@ -203,14 +203,6 @@ class Game {
       player.update();
     }
 
-    if (keyIsDown(LEFT_ARROW) && player.positionX > width / 3 - 50) {
-      player.positionX -= 5;
-      player.update();
-    }
-
-    if (keyIsDown(RIGHT_ARROW) && player.positionX < width / 2 + 300) {
-      player.positionX += 5;
-      player.update();
-    }
+   //player left and right controls here
   }
 }
